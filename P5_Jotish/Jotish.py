@@ -1,4 +1,5 @@
 from tkinter import *
+import time
 
 BTN_LIST=[]
 object_list = []  # [(pointer,obj of rashi,butn)]
@@ -28,6 +29,7 @@ def display(ras):
     Details.grid(row=1, column=2, pady=5, padx=5)
     for x in vars(ras):
         Label(Details,text=f"{x}:\t{vars(ras)[x]}",font=("lucida 20 bold")).pack()
+
 
 
 kundali=LabelFrame(root,text="Kundali",width=400,height=350,font=("lucida 10 bold"))
