@@ -2,7 +2,7 @@
 
 **Project 1 (WebScraper):Flask + MongoDB**
 
-   In this project you will be able to extract the data from Flipkart website for any product mentioned in search box given in the website. The data is also stored in a MongoDB database 
+   Run the main.py file and go the url displayed, Search for any product. It will provide all the feedback,reviews,name... details that is present in flipkart website
    
 **Tkinter folder Consits of 7 Projects :**
    
