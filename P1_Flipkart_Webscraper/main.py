@@ -60,16 +60,13 @@ def web_scraper():
 
                 except Exception as e:
                     print(e)
-# else:
-#         print("need seprate loops")
-    # print(reviews)
     
     client = pymongo.MongoClient("mongodb+srv://shree:Mongodb7676@cluster0.zpo2ysm.mongodb.net/?retryWrites=true&w=majority")
     db = client['review_scrap']
     review_col=db['review_scrap_data']
     review_col.insert_many(reviews)
 
-    return render_template('result.html',reviews=reviews[0:(len(reviews)-1)])
+    return render_template('result.html',reviews=reviews)
         
 
 if __name__=="__main__":
