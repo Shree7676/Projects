@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import filedialog, ttk, messagebox
 import os
-import pandas as pd
+# import pandas as pd
 import csv
 
 class dash_board:

@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import colorchooser,messagebox
 from tkinter.filedialog import asksaveasfilename
-import PIL.ImageGrab as ImageGrab
+# import PIL.ImageGrab as ImageGrab
 
 class Paint():
     def __init__(self,a):

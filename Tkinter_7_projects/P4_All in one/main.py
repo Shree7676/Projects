@@ -11,8 +11,8 @@ frame1=LabelFrame(root,text="ABOUT ME",font="lucida 15 bold",width=300,bg="Light
 frame1.propagate(0)
 frame1.pack(side=LEFT,fill=Y,padx=5,pady=5)
 
-mypic=PhotoImage(file="P4_All in one\my_pic.png")
-Label(frame1,image=mypic).pack(padx=10,pady=10)
+# mypic=PhotoImage(file="P4_All in one\my_pic.png")
+# Label(frame1,image=mypic).pack(padx=10,pady=10)
 
 greetings="Hello!!"
 frame2=LabelFrame(root,text=f"{greetings}",font="lucida 15 bold",width=300,height=300,bg="Light blue",relief=GROOVE,bd=6)

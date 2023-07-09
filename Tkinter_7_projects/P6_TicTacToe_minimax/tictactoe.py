@@ -174,6 +174,7 @@ for x in range(3):
         b.grid(row=x,column=y,pady=5,padx=5)
         b.bind("<Button-1>",fnc)
         BTN_LIST.append(b)
+print(BTN_LIST)
 
 lFrame=LabelFrame(window,text="DASHBOARD",bg="light blue",bd=8,font="lucida 15 bold underline",foreground="purple")
 lFrame.grid(row=0,rowspan=3,column=3,padx=5,pady=5)
